@@ -25,7 +25,7 @@ var paths = {
     dist: './dist/js'
   },
   css: {
-    src: './src/styles.scss',
+    src: './src/styles/styles.scss',
     dist: './dist/css'
   },
   font: {
@@ -141,7 +141,7 @@ gulp.task('html', function() {
 gulp.task('default', ['css', 'js', 'html'], function() {
   gulp.watch(
     [
-      // paths.src + '/styles/**/*.scss',
+      paths.src + '/styles/**/*.scss',
       paths.src + '/components/**/*.scss'
     ],
     ['css'], 
@@ -149,8 +149,7 @@ gulp.task('default', ['css', 'js', 'html'], function() {
   gulp.watch(
     [
       './tailwind.js',
-      paths.src + '/components/**/*.js',
-      // paths.src + '/scripts/**/*.js'
+      paths.src + '/components/**/*.js'
     ],
     ['js']
   );

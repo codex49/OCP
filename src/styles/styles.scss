@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./components/header/header";
+@import "./materials/materials.scss";
+@import "../components/header/header";
