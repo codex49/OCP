@@ -91,8 +91,7 @@ module.exports = {
     sm: '375px',
     md: '768px',
     lg: '1024px',
-    lgx: '1280px',
-    xl: '1440px'
+    xl: '1366px'
   },
 
   /*
@@ -104,11 +103,11 @@ module.exports = {
   */
 
   fonts: {
-    'dinPro-regular': ['DINPro-Regular', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto'],
-    'dinPro-medium': ['DINPro-Medium', 'Constantia', 'Lucida Bright', 'Lucidabright', 'Lucida'],
-    'dinPro-light': ['DINPro-Light', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
-    'dinPro-bold': ['DINPro-Bold', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
-    'dinPro-black': ['DINPro-Black', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
+    'fs-lola': ['FSLola', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto'],
+    'fs-lola-medium': ['FSLolaMedium', 'Constantia', 'Lucida Bright', 'Lucidabright', 'Lucida'],
+    'fs-lola-light': ['FSLolaLight', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
+    'fs-lola-bold': ['FSLolaBold', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
+    'fs-lola-black': ['FSLolaExtraBold', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono'],
     'icon': 'font-icon'
   },
 
